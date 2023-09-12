@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            background-color: gray;
+            color: white;
+            height: 100px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li a {
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            color: white;
+        }
+
+        nav {
+            background-color: darkseagreen;
+            flex: 5;
+        }
+
+        article {
+            background-color: hotpink;
+            flex: 10;
+        }
+
+        div {
+            background-color: blueviolet;
+            flex: 10;
+        }
+
+        aside {
+            background-color: dodgerblue;
+            flex: 10;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            height: 100px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        @media (max-width:800px) {
+            section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Countries</h1>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">India</a></li>
+                <li><a href="">Russia</a></li>
+                <li><a href="">America</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>India</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente magni ex quos cum, soluta molestiae
+                iure dolorum rem. Vitae temporibus corporis qui. Nesciunt quis accusantium, soluta qui molestiae minima.
+            </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi fuga totam, impedit nobis rem commodi
+                veniam expedita, nam itaque excepturi placeat perferendis est quis molestiae debitis quam harum
+                perspiciatis aliquid?</p>
+        </article>
+
+        <div>
+            <h1>Russia</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis itaque iusto, ut inventore
+                saepe corporis voluptatem labore consectetur facilis, facere ipsum beatae atque dignissimos molestias
+                deleniti aperiam esse recusandae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam veritatis, nisi necessitatibus accusamus
+                aliquam quidem, incidunt fuga nihil assumenda a, odit quaerat! Ea dolores, adipisci hic officiis tenetur
+                deserunt? Perspiciatis?</p>
+        </div>
+
+        <aside>
+            <h1>America</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus ad, quam excepturi nemo eveniet
+                ipsa amet assumenda quasi odit doloribus porro aliquam earum voluptatum iusto explicabo ducimus
+                blanditiis sapiente?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia nobis excepturi labore velit, at facere
+                ipsum cumque laboriosam, esse culpa laborum veniam voluptate? Asperiores quibusdam laborum sit tempore
+                fuga suscipit.</p>
+        </aside>
+
+    </section>
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+
+</body>
+
+</html>

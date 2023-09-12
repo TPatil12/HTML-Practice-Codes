@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Element</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header {
+            background-color: cornflowerblue;
+            height: 100px;
+            padding-top: 10px;
+        }
+        nav{
+            background-color: aquamarine;
+            height: 60px;
+            padding-top: 10px;
+            position: sticky;
+            top: 0;
+        }
+        ul{
+            list-style-type: none;
+            text-align: center;
+        }
+        li{
+            display: inline;
+            padding: 14px 16px;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+            font-size: large;
+        }
+        section{
+            background-color: tomato;
+            height: 500px;
+            padding: 65px;
+        }
+        article{
+            background-color: tan;
+            height: 500px;
+            padding-top: 10px;
+        }
+        aside{
+            background-color: aqua;
+            height: 500px;
+            padding-top: 10px;
+        }
+        div{
+            background-color: darkgoldenrod;
+            height: 500px;
+            padding-top: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            height: 80px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: burlywood; text-align: center;">HEADER LAYOUT ELEMENTS - Website Name</h1>
+    </header>
+    <nav>
+        <ul style="text-decoration: none;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="#aboutus">
+        <h1 style="color: azure; text-align: center;">SECTION LAYOUT ELEMENTS - About Us</h1>
+    </section>
+
+    <article id="#services">
+        <h1 style="color: azure; text-align: center;">ARICLE LAYOUT ELEMETS - Services</h1>
+    </article>
+
+    <aside id="#gallery">
+        <h1 style="color: azure; text-align: center;">ASIDE LAYOUT ELEMENTS - Gallery</h1>
+    </aside>
+
+    <div id="#contactus">
+        <h1 style="color: azure; text-align: center;">DIV LAYOUT ELEMENTS - Contact Us</h1>
+    </div>
+
+    <footer>
+        <h1 style="color: azure; text-align: center;">FOOTER LAYOUT ELEMENTS</h1>
+    </footer>
+
+</body>
+
+</html>

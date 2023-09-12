@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLES</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table>
+            <thead style="background-color: coral;">
+                <tr>
+                    <th>SR.NO</th>
+                    <th>NAME</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+
+            <tbody style="background-color: cadetblue;">
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>Tushar</td>
+                    <td>8000</td>
+                </tr>
+                <tr>
+                    <td>Sumit</td>
+                    <td>7000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Patya</td>
+                    <td>6000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jaduu</td>
+                    <td>4000</td>
+                </tr>
+            </tbody>
+
+            <tfoot style="background-color: darkgray;">
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>25000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </center>
+    <hr>
+
+    <center>
+        <table>
+            <tr style="background-color: aquamarine;">
+            <th>Sr no</th>
+            <th>Name</th>
+            <th>mobile no</th>
+        </tr>
+
+            <tr style="background-color: coral;">
+                <td>1</td>
+                <td>Tushar</td>
+                <td>8465651</td>
+            </tr>
+
+            <tr style="background-color: coral;">
+                <td>2</td>
+                <td>Sumya</td>
+                <td>5484651</td>
+            </tr>
+
+            <tr style="background-color: coral;">
+                <td>3</td>
+                <td>Patya</td>
+                <td>6846546</td>
+            </tr>
+
+            <tr style="background-color: coral;">
+                <td>4</td>
+                <td>Jaduu</td>
+                <td>35462132</td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

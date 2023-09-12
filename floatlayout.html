@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Layout</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            background-color: darkslategray;
+            color: white;
+            height: 100px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: coral;
+            height: 300px;
+            width: 10%;
+            float: left;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+        
+        li a{
+            text-decoration: none;
+        }
+
+        article {
+            background-color: cornflowerblue;
+            color: white;
+            height: 300px;
+            width: 30%;
+            float: left;
+        }
+
+        div {
+            background-color: darkmagenta;
+            color: white;
+            height: 300px;
+            float: left;
+            width: 30%;
+        }
+
+        section{
+            background-color: dimgrey;
+            color: beige;
+            width: 30%;
+            height: 300px;
+            float: left;
+
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            height: 100px;
+            padding-top: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        @media (max-width:800px) {
+
+            nav,
+            article,
+            div,section{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Countries</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="">India</a></li>
+            <li><a href="">Russia</a></li>
+            <li><a href="">America</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h1>India</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolor nisi nulla, velit voluptates
+            neque magni quod cupiditate, quia laudantium nesciunt molestiae optio enim fugiat nam quis quo et
+            officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quam repellat quia iusto dolorem illum
+            iure beatae corporis tempora sunt, dolorum expedita animi tenetur necessitatibus ratione, quo
+            consectetur! Nam, sunt!</p>
+    </article>
+    <div>
+        <h1>Russia</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eos, libero blanditiis ratione quidem
+            non mollitia. Sequi itaque laudantium dolorum, ad earum reiciendis velit vel pariatur laborum fugit incidunt
+            modi?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus iusto sit laboriosam. Temporibus sit
+            aperiam exercitationem quia, neque explicabo voluptate quis incidunt, eaque distinctio deleniti voluptas
+            culpa nemo unde. Iusto.</p>
+    </div>
+    <section>
+        <h1>London</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente necessitatibus aut eos laudantium atque
+            eius fugit quibusdam temporibus nesciunt odio, quas ad aperiam laborum rem consectetur voluptate error dolor
+            explicabo!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum nemo autem fugit! Nostrum iste minima
+            quaerat eum animi quod inventore consectetur dicta voluptatem autem doloremque, veritatis velit illo ex.</p>
+    </section>
+    <footer>
+        <h3>Footer</h3>
+    </footer>
+
+</body>
+
+</html>
